@@ -1,15 +1,19 @@
 import Links from "./links/Links";
+import Image from "next/image";
+import logo from "../../../public/logo.png";
+import Link from "next/link";
 
 function Navbar() {
   return (
     <nav
+      id="mainNavbar"
       className="navbar fixed-top navbar-expand-lg bg-dark"
       data-bs-theme="dark"
     >
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          Gundaling Prints
-        </a>
+        <Link className="navbar-brand" href={`/`}>
+          <Image src={logo} width={200} height={36} alt="logo" />
+        </Link>
         <button
           className="navbar-toggler"
           type="button"

@@ -1,3 +1,182 @@
+:root {
+  --background-color: #ffffff;
+  --default-color: #444444;
+  --heading-color: #37517e;
+  --accent-color: #47b2e4;
+  --contrast-color: #ffffff;
+}
+
+#hero {
+  background: url("../../public/hero2.jpg") bottom center / cover no-repeat;
+  min-height: 100vh;
+  position: relative;
+}
+
+#hero h1 {
+  line-height: 1;
+}
+
+#hero #getStarted {
+  font-size: 1.5rem;
+  border-radius: 2rem;
+}
+
+#heroHeader {
+  z-index: 2;
+}
+
+.fa-custom-size {
+  font-size: 60px;
+  color: #0d6efd;
+}
+
+#hero #overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.lilitaOne {
+  font-family: var(--font-lolita-one);
+}
+
 .nav-link:hover {
   border-bottom: 1px solid wheat;
+  transition: 0.5s;
+}
+
+#aboutSection {
+  padding-top: 30px;
+}
+
+#contact {
+  min-height: 85vh;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+.custom-border {
+  border: 2px solid black;
+}
+
+/* start of about and teams sections */
+#about {
+  padding-top: 100px;
+  min-height: 850px;
+  text-align: justify;
+  line-height: 2;
+}
+
+.about ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about ul li {
+  padding-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.about ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: var(--accent-color);
+}
+
+/* end of abount and teams sections */
+
+/* start of product pages */
+/* end of product pages */
+
+/* start of products details */
+#product-details {
+  padding-top: 150px;
+  min-height: 85vh;
+  padding-bottom: 100px;
+}
+
+.product-details .product-details-list {
+  padding: 10px 30px;
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  margin-bottom: 20px;
+}
+
+.product-details .products-img {
+  margin-bottom: 20px;
+}
+
+.product-details h3 {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.product-details h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.product-details p {
+  font-size: 15px;
+}
+
+.product-details ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+
+.product-details ul li {
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.product-details ul i {
+  font-size: 20px;
+  margin-right: 8px;
+  color: var(--accent-color);
+}
+
+/* end of products details */
+
+/* start of teams */
+#team {
+  min-height: 85vh;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+/* end of teams */
+
+/* Mobile Section */
+@media (max-width: 768px) {
+  .navbar {
+    background: #1f1f1f;
+  }
+  .navbar .nav-link:hover {
+    border-bottom: none;
+  }
+  #hero {
+    min-height: 700px;
+  }
+  #hero h1 {
+    font-size: 2rem;
+  }
+  .fa-custom-size {
+    font-size: 40px;
+  }
+  .social-media-icons {
+    font-size: 4rem;
+  }
+  .side-text {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 1rem;
+  }
 }

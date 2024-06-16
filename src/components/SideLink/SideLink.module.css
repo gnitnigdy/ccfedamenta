@@ -1,0 +1,20 @@
+.productLinkedList {
+  display: block;
+  line-height: 1;
+  padding: 8px 0 8px 15px;
+  border-left: 3px solid color-mix(in srgb, #444444, transparent 70%);
+  margin: 20px 0;
+  color: color-mix(in srgb, #444444, transparent 20%);
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.productLinkedListActive {
+  color: #37517e;
+  font-weight: 700;
+  border-color: #47b2e4;
+}
+
+.productLinkedList:hover {
+  border-color: #47b2e4;
+}

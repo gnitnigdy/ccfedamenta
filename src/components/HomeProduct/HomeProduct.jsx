@@ -1,77 +1,42 @@
+import LinkButton from "../LinkButton/LinkButton";
+import styles from "./HomeProduct.module.css";
 function HomeProduct() {
   return (
-    <section id="projectSection">
+    <section id="projectSection" className={styles.classSection}>
       <div className="container text-center mt-3 p-3">
-        <div className="row justify-content-center">
-          <h3>Some project(s) that I have been worked before...</h3>
+        <div className="row justify-content-center" data-aos="zoom-in">
+          <h3>Enjoy Hassle-Free, Fun Printing Experiences</h3>
         </div>
         <div className="row justify-content-center m-2">
-          <div className="col-md-4 p-3">
-            <div className="card">
-              <img src="" alt="" className="card-img-top" />
+          <div className="col-md-5 p-3" data-aos="fade-up">
+            <div className="card custom-border">
               <div className="card-body">
                 <h4 className="card-title text-primary">
-                  Admission Online System(s) BINUS University & Schools
+                  Offline Store Experience
                 </h4>
                 <p className="card-text">
-                  Application for enrolment at BINUS Educational Institution.
+                  Come and let our team solve your needs.
                 </p>
-                <button className="btn btn-lg btn-outline-primary">
-                  <a
-                    href="http://www.binus.edu/admissions"
-                    target="_blank"
-                    className=" hover-icon"
-                  >
-                    Visit <i className="fa-regular fa-share-from-square"></i>
-                  </a>
-                </button>
+                <LinkButton
+                  href={`https://www.google.com/maps/place/Gundaling+GunungBatu/@-6.5933991,106.7745999,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69c4145c60bc39:0xd514f8fafa8a9cc6!8m2!3d-6.5934044!4d106.7771748!16s%2Fg%2F11c72q8vdz?entry=ttu`}
+                >
+                  <span>Visit Offline Store</span>
+                  <i className="bi bi-share"></i>
+                </LinkButton>
               </div>
             </div>
           </div>
-          <div className="col-md-4 p-3">
-            <div className="card">
-              <img src="" alt="" className="card-img-top" />
+          <div className="col-md-5 p-3" data-aos="fade-down">
+            <div className="card custom-border">
               <div className="card-body">
                 <h4 className="card-title text-primary">
-                  E-Desk Learning Management System (BINUS SCHOOLS)
+                  Explore Our New E-Commerce
                 </h4>
-                <p className="card-text">
-                  Application for teaching and learning activities at Bina
-                  Nusantara School(s)
-                </p>
-                <button className="btn btn-lg btn-outline-primary">
-                  <a
-                    href="http://e-desk.binus.sch.id"
-                    target="_blank"
-                    className=" hover-icon"
-                  >
-                    Visit <i className="fa-regular fa-share-from-square"></i>
-                  </a>
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-4 p-3">
-            <div className="card">
-              <img src="" alt="" className="card-img-top" />
-              <div className="card-body">
-                <h4 className="card-title text-primary">
-                  Virtual Account & Payment Gateway for BINUS Group
-                </h4>
-                <p className="card-text">
-                  Service(s) to support all payment activities at Bina Nusantara
-                  Group.
-                </p>
-                <button className="btn btn-lg btn-outline-primary">
-                  <a
-                    href="http://www.binus.edu"
-                    target="_blank"
-                    className=" hover-icon"
-                  >
-                    Visit <i className="fa-regular fa-share-from-square"></i>
-                  </a>
-                </button>
+                <p className="card-text">Have no time? Just order online!</p>
+                <LinkButton href={`https://www.gundalingprint.com/`}>
+                  <span>Visit Online Store</span>
+                  <i className="bi bi-share"></i>
+                </LinkButton>
               </div>
             </div>
           </div>
