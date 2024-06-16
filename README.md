@@ -1,36 +1,31 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Gundaling Print
 
-First, run the development server:
+Gundaling Print adalah usaha ayah saya yang dimulai dari fotokopi hingga menjadi percetakan seperti sekarang.
+Toko kecil ini sudah memiliki sebuah web commerce akibat pada saat pandemi mau tidak mau harus shifting menjadi online.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Web dapat dilihat di : https://www.gundalingprint.com/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Namun untuk memperkenalkan lebih baik lagi, saya diminta untuk membuat sebuah halaman yang bisa menjadi company profile maupun landing page
+untuk sekedar tahu bagaimana Gundaling itu.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Oleh karena itu saya membuat web ini untuk sekalian belajar dan membantu keluarga saya.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Semua asset diambil dari web commerce dan sudah mendapatkan persetujuan dari toko terkait :)
 
-## Learn More
+Hasil deployment dapat dilihat di: https://ccfedamenta.vercel.app/
 
-To learn more about Next.js, take a look at the following resources:
+## Remarks
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Mohon maaf karena masih belajar dari techstack yang dipakai diantaranya:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. React / NextJS
+2. Bootstrap 5
+3. FontAwesome
+4. Bootstrap Icons
+5. Contentful (Headless CMS)
 
-## Deploy on Vercel
+Berikutnya akan dicoba diperbaiki dan akan dikembangkan lebih baik lagi.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thanks.
